@@ -21,6 +21,9 @@ docker build -f release.Dockerfile . --build-arg SONARQUBE_VERSION=9.6.1-communi
 
 # Run OCI Image
 docker compose up -d
+
+# (Optional) Recreate Run OCI Image
+docker compose up --build --force-recreate -d
 ```
 
 ![Alt text](sonar.jpg?raw=true "Sonarqube")
