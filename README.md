@@ -27,11 +27,7 @@ docker compose up --build --force-recreate -d
 ```
 ## Access Sonarqube
 Wait 1-2 minutes, until Sonarqube ready to use!
-<your_ip>:9000 
-
-![Alt text](sonar.jpg?raw=true "Sonarqube Up & Running")
-![Alt text](login-sonar.jpg?raw=true "Sonarqube Login")
-![Alt text](plugin.jpg?raw=true "Sonarqube Plugin Installed")
+<your_ip>:9000
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
